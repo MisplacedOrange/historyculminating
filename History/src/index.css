@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --fontsize-s: 16px;
+  --fontsize-m: 24px;
+  --fontsize-l: 32px;
+  --fontsize-xl: 64px;
+}
