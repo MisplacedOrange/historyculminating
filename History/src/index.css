@@ -2,9 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
 :root {
-  --fontsize-s: 16px;
-  --fontsize-m: 24px;
-  --fontsize-l: 32px;
-  --fontsize-xl: 64px;
+  /* Typography Scale */
+  --text-xs: 12px;
+  --text-s: 16px;
+  --text-m: 24px;
+  --text-l: 32px;
+  --text-xl: 64px;
+  
+  /* Spacing Scale */
+  --spacing-xs: 4px;
+  --spacing-s: 8px;
+  --spacing-m: 16px;
+  --spacing-l: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
+  
+  /* Colors (empty for now) */
+  --color-bg-primary: ;
+  --color-bg-secondary: ;
+  --color-text-primary: ;
+  --color-text-secondary: ;
+  --color-accent: ;
+  --color-border: ;
+  
+  /* Layout */
+  --container-max-width: 1280px;
+  --border-radius-s: 4px;
+  --border-radius-m: 8px;
+  --border-radius-l: 12px;
+}
+
+@layer utilities {
+  /* Typography Utilities */
+  .text-xs { font-size: var(--text-xs); }
+  .text-s { font-size: var(--text-s); }
+  .text-m { font-size: var(--text-m); }
+  .text-l { font-size: var(--text-l); }
+  .text-xl { font-size: var(--text-xl); }
+  
+  /* Spacing Utilities */
+  .gap-xs { gap: var(--spacing-xs); }
+  .gap-s { gap: var(--spacing-s); }
+  .gap-m { gap: var(--spacing-m); }
+  .gap-l { gap: var(--spacing-l); }
+  .gap-xl { gap: var(--spacing-xl); }
+  
+  /* Container */
+  .container-custom { max-width: var(--container-max-width); }
 }
