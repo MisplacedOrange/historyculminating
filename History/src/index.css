@@ -5,6 +5,8 @@
 @layer base {
   body {
     @apply antialiased;
+    background: var(--color-bg-main);
+    color: var(--color-text-primary);
   }
 }
 
@@ -24,13 +26,14 @@
   --spacing-xl: 32px;
   --spacing-2xl: 48px;
   
-  /* Colors (empty for now) */
-  --color-bg-primary: ;
-  --color-bg-secondary: ;
-  --color-text-primary: ;
-  --color-text-secondary: ;
-  --color-accent: ;
-  --color-border: ;
+  /* Colors (dark theme) */
+  --color-bg-main: #0b0d10;
+  --color-bg-rail: #111318;
+  --color-bg-panel: #151922;
+  --color-text-primary: #e5e7eb;
+  --color-text-secondary: #9ca3af;
+  --color-accent: #6366f1;
+  --color-border: rgba(229, 231, 235, 0.1);
   
   /* Layout */
   --container-max-width: 1280px;
