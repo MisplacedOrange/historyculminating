@@ -12,6 +12,51 @@
   overflow-y: auto;
   align-items: flex-start;
   justify-content: flex-start;
+  position: relative;
+  /* Smooth scrolling */
+  scroll-behavior: smooth;
+  /* Hide scrollbar for cleaner look */
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
+
+.main-panel--expanded::-webkit-scrollbar {
+  width: 6px;
+}
+
+.main-panel--expanded::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.main-panel--expanded::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+.main-panel--expanded::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Gradient fade at top and bottom for smooth text continuation */
+.main-panel--expanded::before,
+.main-panel--expanded::after {
+  content: '';
+  position: fixed;
+  left: 0;
+  width: inherit;
+  height: 60px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.main-panel--expanded::before {
+  top: 0;
+  background: linear-gradient(to bottom, var(--color-bg-panel) 0%, transparent 100%);
+}
+
+.main-panel--expanded::after {
+  bottom: 0;
+  background: linear-gradient(to top, var(--color-bg-panel) 0%, transparent 100%);
 }
 
 .main-panel--collapsed {
@@ -27,6 +72,14 @@
   margin: 0 auto;
   width: 100%;
   padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Newspaper grid layout for main panel */
+.main-panel__newspaper-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
 }
 
 .main-panel__title {
@@ -45,7 +98,7 @@
 }
 
 .main-panel__description {
-  color: var(--color-text-secondary);
+  color: var(--color-text-primary);
   font-size: 16px;
   line-height: 1.8;
   border-left: 3px solid var(--color-accent);
@@ -55,4 +108,5 @@
 
 .main-panel__description-text {
   margin-bottom: 1rem;
+  color: var(--color-text-primary);
 }

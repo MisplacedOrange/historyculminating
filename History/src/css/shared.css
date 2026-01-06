@@ -12,5 +12,6 @@
 }
 
 * {
-    overflow: hidden;
+    overflow-x: hidden;
+    scrollbar-width: none;
 }

@@ -1,0 +1,32 @@
+.section-divider {
+  border: none;
+  margin: 2rem 0;
+  opacity: 0.3;
+}
+
+.section-divider--line {
+  border-top: 1px solid var(--color-border);
+}
+
+.section-divider--double {
+  border-top: 3px double var(--color-border);
+}
+
+.section-divider--ornament {
+  text-align: center;
+  position: relative;
+  height: 1px;
+  background: var(--color-border);
+}
+
+.section-divider--ornament::after {
+  content: '✦';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--color-bg-panel);
+  padding: 0 1rem;
+  font-size: var(--text-caption);
+  color: var(--color-text-primary);
+}

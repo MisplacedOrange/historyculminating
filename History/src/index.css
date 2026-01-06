@@ -1,17 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-  body {
+  html, body {
     @apply antialiased;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
     background: var(--color-bg-main);
     color: var(--color-text-primary);
   }
 }
 
 :root {
-  /* Typography Scale */
+  /* Newspaper Typography Scale */
+  --text-meta: 11px;
+  --text-caption: 13px;
+  --text-byline: 14px;
+  --text-body: 16px;
+  --text-subhead: 20px;
+  --text-headline: 28px;
+  --text-display: 48px;
+  --text-hero: 64px;
+  
+  /* Line Heights */
+  --line-tight: 1.1;
+  --line-normal: 1.4;
+  --line-relaxed: 1.6;
+  --line-loose: 1.8;
+  
+  /* Font Families */
+  --font-display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
+  
+  /* Legacy Typography Scale (keep for compatibility) */
   --text-xs: 12px;
   --text-s: 16px;
   --text-m: 24px;
@@ -27,13 +55,12 @@
   --spacing-2xl: 48px;
   
   /* Colors (dark theme) */
-  --color-bg-main: #0b0d10;
-  --color-bg-rail: #111318;
-  --color-bg-panel: #151922;
-  --color-text-primary: #e5e7eb;
-  --color-text-secondary: #9ca3af;
-  --color-accent: #6366f1;
-  --color-border: rgba(229, 231, 235, 0.1);
+  --color-bg-main: #EFE9E3;
+  --color-bg-rail: #EBDEE7;
+  --color-bg-panel: #EBDEE7;
+  --color-text-primary: #111318;
+  --color-text-secondary: #EBDEE7;
+  --color-border: rgba(0, 0, 0, 0.1);
   
   /* Layout */
   --container-max-width: 1280px;
