@@ -1,61 +1,66 @@
 .article-section {
-  margin: 2rem 0;
-  padding: 1.5rem 0;
+  margin: 2rem 0; /* TODO: Section vertical margin */
+  padding: 1.5rem 0; /* TODO: Section vertical padding */
 }
 
-.article-section__headline {
+.article-section-headline {
   font-family: var(--font-display);
   font-size: var(--text-headline);
   font-weight: 700;
   line-height: var(--line-tight);
   color: var(--color-text-primary);
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.75rem; /* TODO: Headline bottom margin */
   text-transform: uppercase;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.01em; /* TODO: Headline letter spacing */
 }
 
-.article-section__byline {
+.article-section-byline {
   font-family: var(--font-mono);
   font-size: var(--text-byline);
   color: var(--color-text-primary);
-  margin-bottom: 1rem;
-  opacity: 0.8;
+  margin-bottom: 1rem; /* TODO: Byline bottom margin */
+  opacity: 0.8; /* TODO: Byline opacity */
 }
 
-.article-section__body {
+.article-section-body {
   font-family: var(--font-body);
   font-size: var(--text-body);
   line-height: var(--line-relaxed);
   color: var(--color-text-primary);
+  margin: 1.5rem 0; /* TODO: Body vertical margin */
 }
 
-.article-section__body p {
-  margin-bottom: 1rem;
+.article-section-body p {
+  margin-bottom: 1.25rem; /* TODO: Paragraph bottom margin */
+  text-align: justify;
+  hyphens: auto;
+  word-spacing: 0.05em; /* TODO: Word spacing */
 }
 
-.article-section__image {
-  margin-top: 1.5rem;
+.article-section-body p:last-child {
+  margin-bottom: 0;
 }
 
-.article-section--horizontal {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  align-items: start;
+.article-section-image {
+  width: 100%;
 }
 
-.article-section--horizontal .article-section__image {
-  grid-column: 2;
-  grid-row: 1 / -1;
+.article-section-image-middle {
+  margin: 1.5rem 0; /* TODO: Middle image vertical margin */
 }
 
-@media (max-width: 768px) {
-  .article-section--horizontal {
-    grid-template-columns: 1fr;
-  }
-  
-  .article-section--horizontal .article-section__image {
-    grid-column: 1;
-    grid-row: auto;
+.article-section-image-bottom {
+  margin-top: 1.5rem; /* TODO: Bottom image top margin */
+}
+
+.article-section-horizontal {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* TODO: Horizontal layout gap */
+}
+
+@media (max-width: 768px) { /* TODO: Mobile breakpoint */
+  .article-section-body p {
+    text-align: left;
   }
 }

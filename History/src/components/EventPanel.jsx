@@ -50,7 +50,7 @@ export default function EventPanel({ rail, index, isExpanded, onClick }) {
 
             <SectionDivider variant="double" />
 
-            <div className="event-panel__newspaper-grid">
+            <div className="event-panel-newspaper-grid">
               {newspaper.sections.map((section, idx) => (
                 <ArticleSection
                   key={idx}
@@ -68,7 +68,7 @@ export default function EventPanel({ rail, index, isExpanded, onClick }) {
             {...COLLAPSED_TEXT_ANIMATION}
             className="rotated-text"
           >
-            <span className="rotated-text__label">
+            <span className="rotated-text-label">
               {rail.title.toUpperCase()}
             </span>
           </motion.div>

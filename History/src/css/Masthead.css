@@ -1,42 +1,42 @@
 .masthead {
   width: 100%;
   text-align: center;
-  padding: 2rem 0;
-  border-bottom: 2px solid var(--color-border);
-  margin-bottom: 2rem;
+  padding: 2rem 0; /* TODO: Masthead padding */
+  border-bottom: 2px solid var(--color-border); /* TODO: Masthead border */
+  margin-bottom: 2rem; /* TODO: Masthead bottom margin */
 }
 
-.masthead__meta {
+.masthead-meta {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: var(--font-mono);
   font-size: var(--text-meta);
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin-bottom: 1rem;
+  letter-spacing: 0.1em; /* TODO: Meta letter spacing */
+  margin-bottom: 1rem; /* TODO: Meta bottom margin */
   color: var(--color-text-primary);
 }
 
-.masthead__issue,
-.masthead__category {
+.masthead-issue,
+.masthead-category {
   font-weight: 600;
 }
 
-.masthead__title {
+.masthead-title {
   font-family: var(--font-display);
   font-size: var(--text-display);
   font-weight: 700;
   line-height: var(--line-tight);
-  margin: 1rem 0;
+  margin: 1rem 0; /* TODO: Title vertical margin */
   color: var(--color-text-primary);
   text-transform: uppercase;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02em; /* TODO: Title letter spacing */
 }
 
-.masthead__date {
+.masthead-date {
   font-family: var(--font-mono);
   font-size: var(--text-caption);
   color: var(--color-text-primary);
-  margin-top: 0.5rem;
+  margin-top: 0.5rem; /* TODO: Date top margin */
 }

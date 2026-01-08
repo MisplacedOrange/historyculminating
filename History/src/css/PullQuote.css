@@ -1,21 +1,21 @@
 .pull-quote {
-  padding: 2rem 0;
-  margin: 2rem 0;
-  border-left: 3px solid var(--color-accent);
-  padding-left: 2rem;
+  padding: 2rem 0; /* TODO: Pull quote vertical padding */
+  margin: 2rem 0; /* TODO: Pull quote vertical margin */
+  border-left: 3px solid var(--color-accent); /* TODO: Left border style */
+  padding-left: 2rem; /* TODO: Left padding */
 }
 
-.pull-quote--center {
+.pull-quote-center {
   text-align: center;
   border-left: none;
   padding-left: 0;
 }
 
-.pull-quote--right {
+.pull-quote-right {
   text-align: right;
 }
 
-.pull-quote__text {
+.pull-quote-text {
   font-family: var(--font-display);
   font-size: var(--text-subhead);
   font-style: italic;
@@ -24,11 +24,11 @@
   margin: 0;
 }
 
-.pull-quote__attribution {
+.pull-quote-attribution {
   font-family: var(--font-body);
   font-size: var(--text-byline);
   font-style: normal;
-  margin-top: 1rem;
+  margin-top: 1rem; /* TODO: Attribution top margin */
   color: var(--color-text-primary);
-  opacity: 0.8;
+  opacity: 0.8; /* TODO: Attribution opacity */
 }

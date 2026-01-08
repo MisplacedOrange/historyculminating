@@ -36,14 +36,6 @@ export const COLLAPSED_TEXT_ANIMATION = {
   transition: { duration: 0 }
 };
 
-/**
- * Stagger animation configuration (currently unused)
- * Reserved for potential future staggered animations of child elements
- */
-export const STAGGER_CONFIG = {
-  staggerChildren: 0.05,
-  delayChildren: 0.15
-};
 
 /**
  * Calculate main panel width based on expansion state

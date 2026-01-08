@@ -1,6 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { PANEL_ANIMATION, calculateMainWidth, CONTENT_ANIMATION, COLLAPSED_TEXT_ANIMATION } from '../utils/panelConfig';
-import { mainContent } from '../data/mainContent';
 import Masthead from './Masthead';
 import PullQuote from './PullQuote';
 import ArticleSection from './ArticleSection';
@@ -8,56 +7,51 @@ import SectionDivider from './SectionDivider';
 import '../css/MainPanel.css';
 import '../css/shared.css';
 
-/**
- * Main panel component - left side of horizontal accordion
- * Displays welcome content and navigation instructions in newspaper format
- * Expands to 66.67% width when active, collapses to 6.67% when event panel is active
- * 
- * @param {Object} props - Component props
- * @param {boolean} props.isExpanded - Whether this panel is currently expanded
- * @param {Function} props.onClick - Handler for panel click (expands main panel)
- * @returns {JSX.Element} Rendered main panel with newspaper layout
- */
+/** Main panel component - left side of horizontal accordion */
 export default function MainPanel({ isExpanded, onClick }) {
   const width = calculateMainWidth(isExpanded ? null : 0);
-  const { newspaper } = mainContent;
 
   return (
     <motion.div
       animate={{ width }}
       transition={PANEL_ANIMATION.transition}
       onClick={!isExpanded ? onClick : undefined}
-      className={`main-panel ${isExpanded ? 'main-panel--expanded' : 'main-panel--collapsed'}`}
+      className={`main-panel ${isExpanded ? 'main-panel-expanded' : 'main-panel-collapsed'}`}
     >
       <AnimatePresence mode="wait">
         {isExpanded ? (
           <motion.div
             key="main-content"
             {...CONTENT_ANIMATION}
-            className="main-panel__content"
+            className="main-panel-content"
+            style={{ '--panel-gradient-color': 'var(--color-panel-main)' }}
           >
-            <div className="main-panel__newspaper-grid">
+            <div className="main-panel-newspaper-grid">
               <Masthead
-                issue={newspaper.issue}
-                title={newspaper.title}
-                date={newspaper.date}
-                category={newspaper.category}
+                issue="JUNE" /* TODO: Issue label */
+                title="Main Panel" /* TODO: Main title */
+                date="1 January 2026" /* TODO: Date */
+                category="CATEGORY" /* TODO: Category label */
               />
               
               <PullQuote 
-                quote={newspaper.pullQuote}
+                quote="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." /* TODO: Pull quote text */
                 align="center"
               />
 
-              {newspaper.sections.map((section, index) => (
-                <div key={index}>
-                  {index > 0 && <SectionDivider variant="line" />}
-                  <ArticleSection
-                    headline={section.headline}
-                    body={section.body}
-                  />
-                </div>
-              ))}
+              <SectionDivider variant="line" />
+
+              <ArticleSection
+                headline="Article Title 1" /* TODO: Article 1 headline */
+                body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." /* TODO: Article 1 body text */
+              />
+
+              <SectionDivider variant="line" />
+
+              <ArticleSection
+                headline="Article Title 2" /* TODO: Article 2 headline */
+                body="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo." /* TODO: Article 2 body text */
+              />
             </div>
           </motion.div>
         ) : (
@@ -66,8 +60,8 @@ export default function MainPanel({ isExpanded, onClick }) {
             {...COLLAPSED_TEXT_ANIMATION}
             className="rotated-text"
           >
-            <span className="rotated-text__label">
-              HISTORY CULMINATING
+            <span className="rotated-text-label">
+              MAIN PANEL {/* TODO: Collapsed panel label */}
             </span>
           </motion.div>
         )}

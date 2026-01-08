@@ -1,14 +1,26 @@
+.collapsed-panel {
+  display: flex;
+  padding: 1rem; /* TODO: Collapsed padding */
+  cursor: pointer;
+  overflow-y: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
 .rotated-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   white-space: nowrap;
 }
 
-.rotated-text__label {
+.rotated-text-label {
   color: var(--color-text-primary);
-  font-size: 16px;
+  font-size: 16px; /* TODO: Rotated text font size */
   font-weight: 600;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.05em; /* TODO: Rotated text letter spacing */
 }
 
 * {

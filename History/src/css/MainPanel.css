@@ -4,38 +4,22 @@
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-panel--expanded {
-  padding: 2rem;
+  position: relative;
+  padding: 2rem; /* TODO: Adjust padding */
   cursor: default;
   overflow-y: auto;
   align-items: flex-start;
   justify-content: flex-start;
-  position: relative;
-  /* Smooth scrolling */
   scroll-behavior: smooth;
-  /* Hide scrollbar for cleaner look */
   scrollbar-width: thin;
-  scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+  scrollbar-color: rgba(255, 255, 255, 0.2) transparent; /* TODO: Scrollbar colors */
 }
 
-.main-panel--expanded::-webkit-scrollbar {
-  width: 6px;
-}
-
-.main-panel--expanded::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.main-panel--expanded::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 3px;
-}
-
-.main-panel--expanded::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.3);
-}
 
 /* Gradient fade at top and bottom for smooth text continuation */
 .main-panel--expanded::before,
@@ -44,7 +28,7 @@
   position: fixed;
   left: 0;
   width: inherit;
-  height: 60px;
+  height: 60px; /* TODO: Gradient fade height */
   pointer-events: none;
   z-index: 10;
 }
@@ -59,45 +43,37 @@
   background: linear-gradient(to top, var(--color-bg-panel) 0%, transparent 100%);
 }
 
-.main-panel--collapsed {
-  padding: 1rem;
-  cursor: pointer;
-  overflow-y: hidden;
-  align-items: center;
-  justify-content: center;
-}
-
-.main-panel__content {
-  max-width: 800px;
+.main-panel-content {
+  max-width: 800px; /* TODO: Content max width */
   margin: 0 auto;
   width: 100%;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 4rem; /* TODO: Top padding */
+  padding-bottom: 4rem; /* TODO: Bottom padding */
 }
 
 /* Newspaper grid layout for main panel */
-.main-panel__newspaper-grid {
+.main-panel-newspaper-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
+  gap: 2rem; /* TODO: Grid gap */
 }
 
-.main-panel__title {
+.main-panel-title {
   color: var(--color-text-primary);
-  font-size: 48px;
+  font-size: 48px; /* TODO: Title font size */
   font-weight: 700;
-  margin-bottom: 1rem;
-  letter-spacing: -0.02em;
+  margin-bottom: 1rem; /* TODO: Title bottom margin */
+  letter-spacing: -0.02em; /* TODO: Title letter spacing */
 }
 
-.main-panel__subtitle {
+.main-panel-subtitle {
   color: var(--color-text-secondary);
-  font-size: 20px;
-  line-height: 1.6;
-  margin-bottom: 2rem;
+  font-size: 20px; /* TODO: Subtitle font size */
+  line-height: 1.6; /* TODO: Subtitle line height */
+  margin-bottom: 2rem; /* TODO: Subtitle bottom margin */
 }
 
-.main-panel__description {
+.main-panel-description {
   color: var(--color-text-primary);
   font-size: 16px;
   line-height: 1.8;
@@ -106,7 +82,7 @@
   margin-bottom: 3rem;
 }
 
-.main-panel__description-text {
+.main-panel-description-text {
   margin-bottom: 1rem;
   color: var(--color-text-primary);
 }
