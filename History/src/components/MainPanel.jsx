@@ -28,10 +28,10 @@ export default function MainPanel({ isExpanded, onClick }) {
           >
             <div className="main-panel-newspaper-grid">
               <Masthead
-                issue="JUNE" /* TODO: Issue label */
-                title="Main Panel" /* TODO: Main title */
-                date="1 January 2026" /* TODO: Date */
-                category="CATEGORY" /* TODO: Category label */
+                issue="HISTORY CULMINATING"
+                title="HISTORY TOP TEN"
+                date="Culminating Delivery Task"
+                category="January, 2026"
               />
               
               <PullQuote 
@@ -42,14 +42,14 @@ export default function MainPanel({ isExpanded, onClick }) {
               <SectionDivider variant="line" />
 
               <ArticleSection
-                headline="Article Title 1" /* TODO: Article 1 headline */
-                body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." /* TODO: Article 1 body text */
+                headline="Purpose of this Website"
+                body="This website was created as part my History Culminating Task. Its purpose is to present a carefully selected Top Ten list of the most important events, people, and trends that have shaped human history. These selections highlight moments that caused long-term political, social, economic, and cultural change." /* TODO: Article 1 body text */
               />
 
               <SectionDivider variant="line" />
 
               <ArticleSection
-                headline="Article Title 2" /* TODO: Article 2 headline */
+                headline="How to Navigate This Website" 
                 body="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo." /* TODO: Article 2 body text */
               />
             </div>
