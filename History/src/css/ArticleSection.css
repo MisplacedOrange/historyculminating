@@ -13,11 +13,11 @@
   letter-spacing: 0.01em; /* TODO: Headline letter spacing */
 }
 
-.article-section-byline {
+.article-section-dateline {
   font-family: var(--font-mono);
   font-size: var(--text-byline);
   color: var(--color-text-primary);
-  margin-bottom: 1rem;
+  margin-bottom: 4px;
   opacity: 0.8; /* TODO: Byline opacity */
 }
 
@@ -30,7 +30,6 @@
 }
 
 .article-section-body p {
-  margin-bottom: 8px; /* TODO: Paragraph bottom margin */
   text-align: justify;
   hyphens: auto;
   word-spacing: 0.05em; /* TODO: Word spacing */
@@ -45,11 +44,33 @@
 }
 
 .article-section-image-middle {
-  margin: 1.5rem 0; /* TODO: Middle image vertical margin */
+  margin: 1.5rem 0;
 }
 
 .article-section-image-bottom {
-  margin-top: 4px; /* TODO: Bottom image top margin */
+  margin-bottom: 32px;
+}
+
+.article-section figure {
+  margin: 0;
+  padding: 0;
+}
+
+.article-section-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.article-section-caption {
+  font-family: var(--font-mono);
+  font-size: var(--text-caption, 0.875rem);
+  color: var(--color-text-secondary);
+  text-align: left;
+  margin-top: 0.5rem;
+  font-style: italic;
+  opacity: 0.9;
 }
 
 .article-section-horizontal {

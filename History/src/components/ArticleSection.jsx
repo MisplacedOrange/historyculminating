@@ -1,8 +1,7 @@
-import ImagePlaceholder from './ImagePlaceholder';
 import '../css/ArticleSection.css';
 
 /** Complete article section with headline, text, and optional images */
-export default function ArticleSection({ headline, byline, body, body2, body3, image, image2, layout = 'vertical' }) {
+export default function ArticleSection({ headline, dateline, body, body2, body3, image, image2, layout = 'vertical' }) {
   const paragraphs = body.split('\n');
   const thirdPoint = Math.ceil(paragraphs.length / 3);
   const twoThirdsPoint = Math.ceil((paragraphs.length * 2) / 3);
@@ -14,7 +13,7 @@ export default function ArticleSection({ headline, byline, body, body2, body3, i
   return (
     <div className={`article-section article-section-${layout}`}>
       <h2 className="article-section-headline">{headline}</h2>
-      {byline && <p className="article-section-byline">By {byline}</p>}
+      {dateline && <p className="article-section-dateline">{dateline}</p>}
       
       {/* First third of text */}
       <div className="article-section-body">
@@ -25,12 +24,14 @@ export default function ArticleSection({ headline, byline, body, body2, body3, i
       
       {/* First image */}
       {image && (
-        <div className="article-section-image article-section-image-middle">
-          <ImagePlaceholder 
-            caption={image.caption}
-            height={image.height || '200px'}
+        <figure className="article-section-image article-section-image-middle">
+          <img 
+            src={image.src} 
+            alt={image.caption || "Historical photograph"}
+            className="article-section-img"
           />
-        </div>
+          {image.caption && <figcaption className="article-section-caption">{image.caption}</figcaption>}
+        </figure>
       )}
       
       {/* Second third of text */}
@@ -53,12 +54,14 @@ export default function ArticleSection({ headline, byline, body, body2, body3, i
       
       {/* Second image */}
       {image2 && (
-        <div className="article-section-image article-section-image-bottom">
-          <ImagePlaceholder 
-            caption={image2.caption}
-            height={image2.height || '200px'}
+        <figure className="article-section-image article-section-image-bottom">
+          <img 
+            src={image2.src} 
+            alt={image2.caption || "Historical photograph"}
+            className="article-section-img"
           />
-        </div>
+          {image2.caption && <figcaption className="article-section-caption">{image2.caption}</figcaption>}
+        </figure>
       )}
       
       {/* Last third of text */}

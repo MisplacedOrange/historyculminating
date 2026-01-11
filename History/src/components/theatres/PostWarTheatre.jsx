@@ -24,28 +24,32 @@ export default function PostWarTheatre() {
       <div className="event-panel-newspaper-grid">
         <ArticleSection
           headline="Cold War"
-          byline="By Author Name" /* TODO: Article 1 byline */
+          dateline="WASHINGTON, Mar. 12 —" /* TODO: Article 1 dateline */
           body="Qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.\n\nEt harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est." /* TODO: Article 1 body text */
           image={{
-            caption: "Image caption 1" /* TODO: Image 1 caption */
+            caption: "Image caption 1", /* TODO: Image 1 caption */
+            src: undefined /* TODO: Add image source */
           }}
           body2="Omnis dolor repellendus temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe." /* TODO: Article 1 body2 text */
           image2={{
-            caption: "Image caption 2" /* TODO: Image 2 caption */
+            caption: "Image caption 2", /* TODO: Image 2 caption */
+            src: undefined /* TODO: Add image source */
           }}
           body3="Eveniet ut et voluptates repudiandae sint et molestiae non recusandae itaque earum rerum hic tenetur." /* TODO: Article 1 body3 text */
         />
 
         <ArticleSection
           headline="Space Race"
-          byline="By Author Name"
+          dateline="CAPE CANAVERAL, Jul. 20 —" /* TODO: Article 2 dateline */
           body="Omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.\n\nItaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat." /* TODO: Article 2 body text */
           image={{
-            caption: "Image caption 3" /* TODO: Image 3 caption */
+            caption: "Image caption 3", /* TODO: Image 3 caption */
+            src: undefined /* TODO: Add image source */
           }}
           body2="Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore." /* TODO: Article 2 body2 text */
           image2={{
-            caption: "Image caption 4" /* TODO: Image 4 caption */
+            caption: "Image caption 4", /* TODO: Image 4 caption */
+            src: undefined /* TODO: Add image source */
           }}
           body3="Magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo." /* TODO: Article 2 body3 text */
         />
