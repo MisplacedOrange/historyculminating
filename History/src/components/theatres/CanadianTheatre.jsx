@@ -10,7 +10,7 @@ export default function CanadianTheatre() {
       <Masthead
         issue="JANUARY"
         title="CANADIAN THEATRE"
-        date="11 January 2026"
+        date="January 11th, 2026"
         category="HISTORY CULMINATING"
       />
 

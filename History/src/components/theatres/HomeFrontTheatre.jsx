@@ -8,8 +8,8 @@ export default function HomeFrontTheatre() {
   return (
     <>
       <Masthead
-        issue="APRIL" /* TODO: Issue label */
-        title="Panel 4" /* TODO: Panel title */
+        issue="JANUARY"
+        title="Homefront " /* TODO: Panel title */
         date="1 April 2026" /* TODO: Date */
         category="CATEGORY" /* TODO: Category label */
       />

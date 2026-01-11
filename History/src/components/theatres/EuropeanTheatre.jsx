@@ -8,10 +8,10 @@ export default function EuropeanTheatre() {
   return (
     <>
       <Masthead
-        issue="MARCH" /* TODO: Issue label */
-        title="Panel 3" /* TODO: Panel title */
-        date="1 March 2026" /* TODO: Date */
-        category="CATEGORY" /* TODO: Category label */
+        issue="JANUARY"
+        title="EUROPEAN THEATRE"
+        date="January 11th, 2026"
+        category="HISTORY CULMINATING"
       />
 
       <PullQuote 
