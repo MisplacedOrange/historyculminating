@@ -34,12 +34,10 @@
   --line-relaxed: 1.6;   /* TODO: Relaxed line height */
   --line-loose: 1.8;     /* TODO: Loose line height */
   
-  /* Font Families - TODO: Replace with your chosen fonts */
   --font-display: 'Playfair Display', Georgia, 'Times New Roman', serif;           /* TODO: Display font stack */
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; /* TODO: Body font stack */
   --font-mono: 'IBM Plex Mono', 'Courier New', monospace;                          /* TODO: Monospace font stack */
   
-  /* Spacing Scale - TODO: Customize spacing values */
   --spacing-xs: 4px;   /* TODO: Extra small spacing */
   --spacing-s: 8px;    /* TODO: Small spacing */
   --spacing-m: 16px;   /* TODO: Medium spacing */
@@ -47,10 +45,9 @@
   --spacing-xl: 32px;  /* TODO: Extra large spacing */
   --spacing-2xl: 48px; /* TODO: 2x large spacing */
   
-  /* Colors - TODO: Replace with your color scheme */
-  --color-bg-main: #c9c7c3;             /* TODO: Main background color */
-  --color-bg-rail: #c9c7c3;             /* TODO: Rail background color */
-  --color-bg-panel: #c9c7c3;            /* TODO: Panel background color */
+  --color-bg-main: #acacac;             /* TODO: Main background color */
+  --color-bg-rail: #acacac;             /* TODO: Rail background color */
+  --color-bg-panel: #acacac;            /* TODO: Panel background color */
   --color-text-primary: #111318;        /* TODO: Primary text color */
   --color-border: rgba(0, 0, 0, 0.1);   /* TODO: Border color */
   

@@ -22,8 +22,8 @@ function App() {
         index={0}
         isExpanded={expandedIndex === 0}
         onClick={() => setExpandedIndex(0)}
-        title="PANEL 1" /* TODO: Panel 1 title */
-        bgColor="#8B4545" /* TODO: Panel 1 background color */
+        title="CANADIAN THEATRE"
+        bgColor="#979797"
       >
         <CanadianTheatre />
       </TheatrePanel>
@@ -32,8 +32,8 @@ function App() {
         index={1}
         isExpanded={expandedIndex === 1}
         onClick={() => setExpandedIndex(1)}
-        title="PANEL 2" /* TODO: Panel 2 title */
-        bgColor="#3B5875" /* TODO: Panel 2 background color */
+        title="EUROPEAN THEATRE"
+        bgColor="#8b8c8b"
       >
         <PacificTheatre />
       </TheatrePanel>
@@ -42,8 +42,8 @@ function App() {
         index={2}
         isExpanded={expandedIndex === 2}
         onClick={() => setExpandedIndex(2)}
-        title="PANEL 3" /* TODO: Panel 3 title */
-        bgColor="#6B6B6B" /* TODO: Panel 3 background color */
+        title="HOMEFRONT THEATRE"
+        bgColor="#909090"
       >
         <EuropeanTheatre />
       </TheatrePanel>
@@ -52,8 +52,8 @@ function App() {
         index={3}
         isExpanded={expandedIndex === 3}
         onClick={() => setExpandedIndex(3)}
-        title="PANEL 4" /* TODO: Panel 4 title */
-        bgColor="#9B7653" /* TODO: Panel 4 background color */
+        title="PACIFIC THEATRE"
+        bgColor="#8B8B8B"
       >
         <HomeFrontTheatre />
       </TheatrePanel>
@@ -62,8 +62,8 @@ function App() {
         index={4}
         isExpanded={expandedIndex === 4}
         onClick={() => setExpandedIndex(4)}
-        title="PANEL 5" /* TODO: Panel 5 title */
-        bgColor="#4A6B7C" /* TODO: Panel 5 background color */
+        title="POST-WAR THEATRE"
+        bgColor="#848484"
       >
         <PostWarTheatre />
       </TheatrePanel>

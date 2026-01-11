@@ -61,7 +61,7 @@ export default function MainPanel({ isExpanded, onClick }) {
             className="rotated-text"
           >
             <span className="rotated-text-label">
-              MAIN PANEL {/* TODO: Collapsed panel label */}
+              TABLE OF CONTENTS
             </span>
           </motion.div>
         )}

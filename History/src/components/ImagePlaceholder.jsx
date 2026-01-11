@@ -1,3 +1,4 @@
+import { PCFShadowMap } from 'three';
 import pfp from '../assets/pfp.jpg';
 import '../css/ImagePlaceholder.css';
 

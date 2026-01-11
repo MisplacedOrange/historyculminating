@@ -1,6 +1,6 @@
 .article-section {
-  margin: 2rem 0; /* TODO: Section vertical margin */
-  padding: 1.5rem 0; /* TODO: Section vertical padding */
+
+  padding: 1.5rem 0;
 }
 
 .article-section-headline {
@@ -9,7 +9,6 @@
   font-weight: 700;
   line-height: var(--line-tight);
   color: var(--color-text-primary);
-  margin-bottom: 0.75rem; /* TODO: Headline bottom margin */
   text-transform: uppercase;
   letter-spacing: 0.01em; /* TODO: Headline letter spacing */
 }
@@ -18,7 +17,7 @@
   font-family: var(--font-mono);
   font-size: var(--text-byline);
   color: var(--color-text-primary);
-  margin-bottom: 1rem; /* TODO: Byline bottom margin */
+  margin-bottom: 1rem;
   opacity: 0.8; /* TODO: Byline opacity */
 }
 
@@ -31,7 +30,7 @@
 }
 
 .article-section-body p {
-  margin-bottom: 1.25rem; /* TODO: Paragraph bottom margin */
+  margin-bottom: 8px; /* TODO: Paragraph bottom margin */
   text-align: justify;
   hyphens: auto;
   word-spacing: 0.05em; /* TODO: Word spacing */
@@ -50,7 +49,7 @@
 }
 
 .article-section-image-bottom {
-  margin-top: 1.5rem; /* TODO: Bottom image top margin */
+  margin-top: 4px; /* TODO: Bottom image top margin */
 }
 
 .article-section-horizontal {
