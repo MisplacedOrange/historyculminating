@@ -23,31 +23,31 @@ export default function EuropeanTheatre() {
 
       <div className="event-panel-newspaper-grid">
         <ArticleSection
-          headline="Article Title 1" /* TODO: Article 1 headline */
+          headline="D-Day – Juno Beach" 
           byline="By Author Name" /* TODO: Article 1 byline */
-          body="Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse.\n\nQuam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur." /* TODO: Article 1 body text */
+          body="Juno Beach was a 10-kilometre stretch of coastline in Normandy, France, assaulted by Canadian forces on June 6, 1944, during D-Day. This operation was part of Operation Overlord, the Allied invasion to free France from Nazi occupation. The assault was led by the 3rd Canadian Infantry Division and the 2nd Canadian Armoured Brigade."
           image={{
             caption: "Image caption 1" /* TODO: Image 1 caption */
           }}
-          body2="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti." /* TODO: Article 1 body2 text */
+          body2="More than 14,000 Canadian soldiers landed on Juno Beach, supported by 110 naval warships, roughly 10,000 sailors, and 15 Royal Canadian Air Force fighter and fighter-bomber squadrons. Canadian forces arrived three hours after optimal sea conditions, and submerged German obstacles caused heavy damage, destroying or damaging around 30% of landing craft. Many amphibious Duplex Drive tanks sank or arrived too late, leaving infantry exposed. Nearly half of the first assault waves were killed or wounded."
           image2={{
-            caption: "Image caption 2" /* TODO: Image 2 caption */
+            caption: "a"
           }}
-          body3="Atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident similique sunt." /* TODO: Article 1 body3 text */
+          body3="Despite severe casualties totaling 1,074, including 359 Canadian troops achieved their objectives, pushing inland, cutting off the Caen–Bayeux road, and advancing farther than any other Allied force on D-Day. The success at Juno Beach demonstrated Canada’s major military contribution to the liberation of Europe and cemented its reputation as a capable and determined Allied power." 
         />
 
         <ArticleSection
-          headline="Article Title 2" /* TODO: Article 2 headline */
+          headline="Holocaust – Auschwitz-Birkenau"
           byline="By Author Name" /* TODO: Article 2 byline */
-          body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.\n\nExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." /* TODO: Article 2 body text */
+          body="Auschwitz-Birkenau was the largest Nazi concentration and extermination camp, located near the Polish village of Brzezinka, approximately 3.2 kilometres from Auschwitz I. Construction began in 1941 following the annexation of Poland. The camp complex operated from 1940 to 1945 and became a central site of the Holocaust."
           image={{
             caption: "Image caption 3" /* TODO: Image 3 caption */
           }}
-          body2="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem." /* TODO: Article 2 body2 text */
+          body2="Auschwitz-Birkenau was divided into ten sectors, separated by electrified fencing, and included sections for men, women, Roma, and Jewish families. The SS tested Zyklon B gas in 1941, leading to mass gassing operations as part of the “Final Solution,” the Nazi plan to exterminate Jewish people. Over 960,000 Jews were murdered, along with tens of thousands of Poles, Roma, Soviet POWs, and others. Victims were deceived with gas chambers disguised as showers, and their belongings were sorted at the “Kanada” warehouse."
           image2={{
             caption: "Image caption 4" /* TODO: Image 4 caption */
           }}
-          body3="Aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo." /* TODO: Article 2 body3 text */
+          body3="Historically, Auschwitz-Birkenau symbolizes the extreme brutality and scale of genocide during World War II. Acts of resistance, such as the 1944 revolt that destroyed Crematorium IV, showed prisoner defiance despite overwhelming odds. The camp was liberated by Soviet forces on January 27, 1945, revealing the horrors of the Holocaust to the world and permanently shaping global discussions on human rights, genocide, and justice."
         />
       </div>
     </>

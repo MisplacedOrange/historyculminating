@@ -8,10 +8,10 @@ export default function PacificTheatre() {
   return (
     <>
       <Masthead
-        issue="FEBRUARY" /* TODO: Issue label */
-        title="Panel 2" /* TODO: Panel title */
-        date="1 February 2026" /* TODO: Date */
-        category="CATEGORY" /* TODO: Category label */
+        issue="JANUARY"
+        title="PACIFIC THEATRE"
+        date="January 11th, 2026"
+        category="HISTORY CULMINATING"
       />
 
       <PullQuote 
@@ -23,7 +23,7 @@ export default function PacificTheatre() {
 
       <div className="event-panel-newspaper-grid">
         <ArticleSection
-          headline="Article Title 1" /* TODO: Article 1 headline */
+          headline="Pearl Harbour"
           byline="By Author Name" /* TODO: Article 1 byline */
           body="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.\n\nCupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga." /* TODO: Article 1 body text */
           image={{

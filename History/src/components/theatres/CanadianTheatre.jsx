@@ -23,17 +23,17 @@ export default function CanadianTheatre() {
 
       <div className="event-panel-newspaper-grid">
         <ArticleSection
-          headline="Battle of Vimy Ridge" /* TODO: Article 1 headline */
-          byline="" /* TODO: Article 1 byline */
-          body="The Battle of Vimy Ridge was fought during the First World War from April 9 to April 12, 1917, on the Western Front in northern France. It marked the first time all four Canadian Corps fought together in a single coordinated assault. The battle took place near Vimy, Pas-de-Calais, and targeted a heavily fortified German defensive position."
+          headline="Canadian Bill of Rights" 
+          byline=""
+          body="The Canadian Bill of Rights was introduced in 1960 by Prime Minister John Diefenbaker as Canada’s first federal law protecting human rights and freedoms. It aimed to guarantee fundamental freedoms such as life, liberty, personal security, equality before the law, and freedoms of religion, speech, and assembly."
           image={{
             caption: "Image caption 1" /* TODO: Image 1 caption */
           }}
-          body2="Canadian forces carefully prepared for the assault and used new military tactics, including the creeping barrage. This tactic allowed infantry to advance closely behind artillery fire, which masked their movement and reduced exposure to enemy fire. The Canadians successfully captured Vimy Ridge, achieving the largest territorial gain of any Entente power at that point in the war. Over 10,600 Canadians became casualties during the battle." /* TODO: Article 1 body2 text */
+          body2="Although groundbreaking, the Bill of Rights applied only to federal law and not provincial statutes, limiting its effectiveness. Between 1960 and 1982, it was cited in only 35 cases, with just one successfully changing a law. The bill was influenced by past rights violations, including Japanese Canadian internment, expanded sedition laws, and suspended civil liberties during events such as the Gouzenko Affair."
           image2={{
             caption: "Image caption 2" /* TODO: Image 2 caption */
           }}
-          body3="The capture of Vimy Ridge was historically significant because it provided a crucial geographic vantage point, allowing visibility over much of the surrounding battlefield. The victory demonstrated Canada’s growing military effectiveness and independence and has often been described as the “birth of a nation.” Today, the Canadian National Vimy Memorial stands on Hill 145, commemorating the 11,285 Canadians killed in France who have no known grave." /* TODO: Article 1 body3 text */
+          body3="Historically, the Bill of Rights was significant because it laid the groundwork for stronger constitutional protections. It advanced Indigenous voting rights and reflected growing awareness of civil liberties. Although eventually replaced by the Canadian Charter of Rights and Freedoms, the Bill of Rights marked a critical step toward modern Canadian democracy and rights protection."
         />
 
         <ArticleSection

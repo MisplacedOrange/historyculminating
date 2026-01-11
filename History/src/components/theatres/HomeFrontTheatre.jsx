@@ -9,9 +9,9 @@ export default function HomeFrontTheatre() {
     <>
       <Masthead
         issue="JANUARY"
-        title="Homefront " /* TODO: Panel title */
-        date="1 April 2026" /* TODO: Date */
-        category="CATEGORY" /* TODO: Category label */
+        title="HOMEFRONT THEATRE"
+        date="January 11th, 2026"
+        category="HISTORY CULMINATING"
       />
 
       <PullQuote 
@@ -23,31 +23,31 @@ export default function HomeFrontTheatre() {
 
       <div className="event-panel-newspaper-grid">
         <ArticleSection
-          headline="Article Title 1" /* TODO: Article 1 headline */
+          headline="Battle of Vimy Ridge"
           byline="By Author Name" /* TODO: Article 1 byline */
-          body="Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.\n\nSed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit." /* TODO: Article 1 body text */
+          body="The Battle of Vimy Ridge was fought during the First World War from April 9 to April 12, 1917, on the Western Front in northern France. It marked the first time all four Canadian Corps fought together in a single coordinated assault. The battle took place near Vimy, Pas-de-Calais, and targeted a heavily fortified German defensive position."
           image={{
             caption: "Image caption 1" /* TODO: Image 1 caption */
           }}
-          body2="Ut enim ad minima veniam quis nostrum exercitationem ullam corporis suscipit laboriosam nisi ut aliquid." /* TODO: Article 1 body2 text */
+          body2="Canadian forces carefully prepared for the assault and used new military tactics, including the creeping barrage. This tactic allowed infantry to advance closely behind artillery fire, which masked their movement and reduced exposure to enemy fire. The Canadians successfully captured Vimy Ridge, achieving the largest territorial gain of any Entente power at that point in the war. Over 10,600 Canadians became casualties during the battle."
           image2={{
             caption: "Image caption 2" /* TODO: Image 2 caption */
           }}
-          body3="Ex ea commodi consequatur quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil." /* TODO: Article 1 body3 text */
+          body3="The capture of Vimy Ridge was historically significant because it provided a crucial geographic vantage point, allowing visibility over much of the surrounding battlefield. The victory demonstrated Canada’s growing military effectiveness and independence and has often been described as the “birth of a nation.” Today, the Canadian National Vimy Memorial stands on Hill 145, commemorating the 11,285 Canadians killed in France who have no known grave." 
         />
 
         <ArticleSection
-          headline="Article Title 2" /* TODO: Article 2 headline */
+          headline="Nuremberg Trials"
           byline="By Author Name" /* TODO: Article 2 byline */
-          body="Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse.\n\nQuam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. At vero eos et accusamus et iusto odio dignissimos ducimus." /* TODO: Article 2 body text */
+          body="The Nuremberg Trials were a series of international military tribunals held after World War II to prosecute Nazi leaders for war crimes. The foundation was established at the Moscow Conference in 1943, and the main trials took place from November 1945 to October 1946 in Nuremberg, Germany."
           image={{
             caption: "Image caption 3" /* TODO: Image 3 caption */
           }}
-          body2="Qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint." /* TODO: Article 2 body2 text */
+          body2="A total of 199 defendants were tried, with 161 convicted and 37 sentenced to death. The tribunal presented extensive evidence, including footage of concentration camp liberations, exposing crimes such as the Final Solution and POW murders. Additional trials continued until 1949, targeting physicians, judges, SS officers, and industrialists."
           image2={{
             caption: "Image caption 4" /* TODO: Image 4 caption */
           }}
-          body3="Occaecati cupiditate non provident similique sunt in culpa qui officia deserunt mollitia animi id est laborum." /* TODO: Article 2 body3 text */
+          body3="Historically, the Nuremberg Trials were significant because they established the principle that individuals, including government leaders, could be held accountable under international law. They set legal precedents for war crimes, crimes against humanity, and genocide, shaping future international justice systems."
         />
       </div>
     </>

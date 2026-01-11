@@ -8,10 +8,10 @@ export default function PostWarTheatre() {
   return (
     <>
       <Masthead
-        issue="MAY" /* TODO: Issue label */
-        title="Panel 5" /* TODO: Panel title */
-        date="1 May 2026" /* TODO: Date */
-        category="CATEGORY" /* TODO: Category label */
+        issue="JANUARY"
+        title="POST-WAR THEATRE"
+        date="January 11th, 2026"
+        category="HISTORY CULMINATING"
       />
 
       <PullQuote 
