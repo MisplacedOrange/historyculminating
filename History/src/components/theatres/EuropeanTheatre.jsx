@@ -3,6 +3,7 @@ import PullQuote from '../PullQuote';
 import ArticleSection from '../ArticleSection';
 import SectionDivider from '../SectionDivider';
 
+
 /** Panel 3 component - contains panel content */
 export default function EuropeanTheatre() {
   return (

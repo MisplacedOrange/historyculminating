@@ -7,7 +7,6 @@ import image2 from '../../assets/image2.webp';
 import image3 from '../../assets/image3.webp';
 import image4 from '../../assets/image4.webp';
 
-/** Panel 1 component - contains panel content */
 export default function CanadianTheatre() {
   return (
     <>
