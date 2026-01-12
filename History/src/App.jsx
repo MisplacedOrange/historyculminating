@@ -32,7 +32,7 @@ function App() {
         index={1}
         isExpanded={expandedIndex === 1}
         onClick={() => setExpandedIndex(1)}
-        title="EUROPEAN THEATRE"
+        title="PACIFIC THEATRE"
         bgColor="#8b8c8b"
       >
         <PacificTheatre />
@@ -42,7 +42,7 @@ function App() {
         index={2}
         isExpanded={expandedIndex === 2}
         onClick={() => setExpandedIndex(2)}
-        title="HOMEFRONT THEATRE"
+        title="EUROPEAN THEATRE"
         bgColor="#909090"
       >
         <EuropeanTheatre />
@@ -52,7 +52,7 @@ function App() {
         index={3}
         isExpanded={expandedIndex === 3}
         onClick={() => setExpandedIndex(3)}
-        title="PACIFIC THEATRE"
+        title="HOMEFRONT THEATRE"
         bgColor="#8B8B8B"
       >
         <HomeFrontTheatre />
