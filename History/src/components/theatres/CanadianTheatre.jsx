@@ -28,17 +28,17 @@ export default function CanadianTheatre() {
         <ArticleSection
           headline="Canadian Bill of Rights" 
           dateline="August 10, 1960"
-          body="The Canadian Bill of Rights was introduced in 1960 by Prime Minister John Diefenbaker as Canada's first federal law protecting human rights and freedoms. It aimed to guarantee fundamental freedoms such as life, liberty, personal security, equality before the law, and freedoms of religion, speech, and assembly."
+          body="The Canadian Bill of Rights was introduced in 1960 by Prime Minister John Diefenbaker as Canada's first federal law protecting human rights and freedoms. It's goal was to guarantee fundamental freedoms such as life, liberty, personal security, equality before the law."
           image={{
             caption: "Figure 1: 1960 Canadian Bill of Rights. Sourced from https://historyofrights.ca/encyclopaedia/main-events/1960-canadian-bill-rights/", 
             src: image1
           }}
-          body2="Although groundbreaking, the Bill of Rights applied only to federal law and not provincial statutes, limiting its effectiveness. Between 1960 and 1982, it was cited in only 35 cases, with just one successfully changing a law. The bill was influenced by past rights violations, including Japanese Canadian internment, expanded sedition laws, and suspended civil liberties during events such as the Gouzenko Affair."
+          body2="Although groundbreaking, the Bill of Rights applied only to federal law and not provincial statutes which limited its effectiveness. Between 1960 and 1982, it was cited in only 35 cases, with just one successfully changing a law. The bill was influenced by past rights violations, including Japanese Canadian internment, expanded sedition laws, and suspended civil liberties during events such as the Gouzenko Affair."
           image2={{
             caption: "Figure 2: John Diefenbaker and a delegate to the Progressive Conservative General Meeting. Sourced from https://diefenbaker.usask.ca/exhibits/online-exhibits-content/the-canadian-bill-of-rights.php", 
             src: image2
           }}
-          body3="Historically, the Bill of Rights was significant because it laid the groundwork for stronger constitutional protections. It advanced Indigenous voting rights and reflected growing awareness of civil liberties. Although eventually replaced by the Canadian Charter of Rights and Freedoms, the Bill of Rights marked a critical step toward modern Canadian democracy and rights protection."
+          body3="The Bill of Rights was historically significant because it laid the foundation for a stronger, more inclusive constitution. It enabled Indigenous voting rights and reflected growing awareness of civil liberties. Although eventually replaced by the Canadian Charter of Rights and Freedoms, the Bill of Rights was a critical step towards modern Canada today."
         />
 
         <ArticleSection

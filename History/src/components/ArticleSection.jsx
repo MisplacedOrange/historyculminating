@@ -15,14 +15,12 @@ export default function ArticleSection({ headline, dateline, body, body2, body3,
       <h2 className="article-section-headline">{headline}</h2>
       {dateline && <p className="article-section-dateline">{dateline}</p>}
       
-      {/* First third of text */}
       <div className="article-section-body">
         {firstThird.map((paragraph, index) => (
           <p key={index}>{paragraph}</p>
         ))}
       </div>
-      
-      {/* First image */}
+
       {image && (
         <figure className="article-section-image article-section-image-middle">
           <img 
@@ -34,7 +32,6 @@ export default function ArticleSection({ headline, dateline, body, body2, body3,
         </figure>
       )}
       
-      {/* Second third of text */}
       {secondThird.length > 0 && (
         <div className="article-section-body">
           {secondThird.map((paragraph, index) => (
@@ -43,7 +40,6 @@ export default function ArticleSection({ headline, dateline, body, body2, body3,
         </div>
       )}
       
-      {/* Body2 text between images */}
       {body2 && (
         <div className="article-section-body">
           {body2.split('\n').map((paragraph, index) => (
@@ -52,7 +48,6 @@ export default function ArticleSection({ headline, dateline, body, body2, body3,
         </div>
       )}
       
-      {/* Second image */}
       {image2 && (
         <figure className="article-section-image article-section-image-bottom">
           <img 
