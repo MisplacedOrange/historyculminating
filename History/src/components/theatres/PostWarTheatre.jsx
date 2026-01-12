@@ -2,8 +2,11 @@ import Masthead from '../Masthead';
 import PullQuote from '../PullQuote';
 import ArticleSection from '../ArticleSection';
 import SectionDivider from '../SectionDivider';
+import image17 from '../../assets/image17.webp';
+import image18 from '../../assets/image18.webp';
+import image19 from '../../assets/image19.webp';
+import image20 from '../../assets/image20.webp';
 
-/** Panel 5 component - contains panel content */
 export default function PostWarTheatre() {
   return (
     <>
@@ -15,7 +18,7 @@ export default function PostWarTheatre() {
       />
 
       <PullQuote 
-        quote="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore." /* TODO: Pull quote text */
+        quote="That's one small step for man, one giant leap for mankind - Neil Armstrong" 
         align="center"
       />
 
@@ -24,34 +27,34 @@ export default function PostWarTheatre() {
       <div className="event-panel-newspaper-grid">
         <ArticleSection
           headline="Cold War"
-          dateline="WASHINGTON, Mar. 12 —" /* TODO: Article 1 dateline */
-          body="Qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.\n\nEt harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est." /* TODO: Article 1 body text */
+          dateline="March 12, 1947 - December 26, 1991"
+          body="The Cold War was a political and ideological rivalry between the United States and the Soviet Union following World War II. It was characterized by economic, political, and propaganda conflicts rather than direct warfare."
           image={{
-            caption: "Image caption 1", /* TODO: Image 1 caption */
-            src: undefined /* TODO: Add image source */
+            caption: "People gathering near a part of the Berlin Wall that has been opened after the German Democratic Republic’s decision to open borders between East and West Berlin. Sourced from https://www.pewresearch.org/short-reads/2014/11/03/berlin-walls-fall-marked-the-end-of-the-cold-war-for-the-american-public/", 
+            src: image17
           }}
-          body2="Omnis dolor repellendus temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe." /* TODO: Article 1 body2 text */
+          body2="Key events included the formation of NATO, the Berlin Wall, the Korean War, and the Cuban Missile Crisis. Both sides sought to contain the influence of the other, dividing Europe and influencing global politics through alliances and proxy wars."
           image2={{
-            caption: "Image caption 2", /* TODO: Image 2 caption */
-            src: undefined /* TODO: Add image source */
+            caption: "Korean soldiers walking on the 38th parallel. Sourced from https://www.history.com/articles/korean-war", 
+            src: image18
           }}
-          body3="Eveniet ut et voluptates repudiandae sint et molestiae non recusandae itaque earum rerum hic tenetur." /* TODO: Article 1 body3 text */
+          body3="Historically, the Cold War shaped international relations for decades, influenced military alliances, and defined global power structures. The constant threat of nuclear war affected diplomacy, economics, and daily life worldwide."
         />
 
         <ArticleSection
           headline="Space Race"
-          dateline="CAPE CANAVERAL, Jul. 20 —" /* TODO: Article 2 dateline */
-          body="Omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.\n\nItaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat." /* TODO: Article 2 body text */
+          dateline="October 4, 1957 -  July 17, 1975" 
+          body="The Space Race was a technological competition between the United States and the Soviet Union during the Cold War. It began in 1957 with the launch of Sputnik 1 and continued through major milestones in space exploration."
           image={{
-            caption: "Image caption 3", /* TODO: Image 3 caption */
-            src: undefined /* TODO: Add image source */
+            caption: "First man-made space satellite, Sputnik 1. Sourced from https://www.upi.com/Top_News/2017/10/04/On-This-Day-Soviet-Union-launches-Sputnik-1/4021507091970/",
+            src: image19
           }}
-          body2="Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore." /* TODO: Article 2 body2 text */
+          body2="Key achievements included the first human in space, the first spacewalk, lunar orbit missions, and the Apollo 11 Moon landing in 1969. Both nations invested heavily in science, engineering, and astronaut programs to demonstrate technological superiority."
           image2={{
-            caption: "Image caption 4", /* TODO: Image 4 caption */
-            src: undefined /* TODO: Add image source */
+            caption: "Edwin Buzz Aldrin looking at the American flag as he becomes the first man to walk on the moon. Sourced from https://www.adirondackdailyenterprise.com/news/local-news/2019/07/how-the-moon-landed-on-page-1/",
+            src: image20
           }}
-          body3="Magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo." /* TODO: Article 2 body3 text */
+          body3="Historically, the Space Race symbolized Cold War competition and innovation. The U.S. Moon landing marked technological dominance and inspired advances in science, communication, and global cooperation." 
         />
       </div>
     </>
