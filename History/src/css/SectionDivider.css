@@ -1,32 +1,29 @@
 .section-divider {
-  border: none;
-  margin: 2rem 0; /* TODO: Divider vertical margin */
-  opacity: 0.3; /* TODO: Divider opacity */
+  border: 16px;
+  margin: 8px
 }
 
 .section-divider--line {
-  border-top: 1px solid var(--color-border); /* TODO: Line border style */
+  border-top: 4px solid var(--color-border); 
 }
 
 .section-divider--double {
-  border-top: 3px double var(--color-border); /* TODO: Double border style */
+  border-top: 8px double var(--color-border); 
 }
 
 .section-divider--ornament {
   text-align: center;
   position: relative;
-  height: 1px; /* TODO: Ornament line height */
+  height: 100px; 
   background: var(--color-border);
 }
 
 .section-divider--ornament::after {
-  content: '✦'; /* TODO: Ornament character */
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   background: var(--color-bg-panel);
-  padding: 0 1rem; /* TODO: Ornament padding */
-  font-size: var(--text-caption);
+  padding: 0 1rem;
   color: var(--color-text-primary);
 }

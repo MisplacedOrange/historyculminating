@@ -35,7 +35,7 @@ export default function MainPanel({ isExpanded, onClick }) {
               />
               
               <PullQuote 
-                quote="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt." /* TODO: Pull quote text */
+                quote="Study the Past if You Would Define the Future - Confucius" 
                 align="center"
               />
 
@@ -43,14 +43,14 @@ export default function MainPanel({ isExpanded, onClick }) {
 
               <ArticleSection
                 headline="Purpose of this Website"
-                body="This website was created as part my History Culminating Task. Its purpose is to present a carefully selected Top Ten list of the most important events, people, and trends that have shaped human history. These selections highlight moments that caused long-term political, social, economic, and cultural change." /* TODO: Article 1 body text */
+                body="This website was created for part my History Culminating. Its purpose is to present a carefully selected Top Ten list of the most important events that have shaped human history. These selections highlight events that caused long-term political, social, economic, and cultural change." 
               />
 
               <SectionDivider variant="line" />
 
               <ArticleSection
                 headline="How to Navigate This Website" 
-                body="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo." /* TODO: Article 2 body text */
+                body="This website is organized into six panels. The first panel serves as the table of contents, while the remaining five representing different Theatres. Click a Theatre’s title to open its panel. Each Theatre includes two articles on significant historical events related to that theme. To return to the table of contents, click the expanded Theatre panel again." 
               />
             </div>
           </motion.div>

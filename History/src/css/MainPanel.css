@@ -10,14 +10,14 @@
 
 .main-panel--expanded {
   position: relative;
-  padding: 2rem; /* TODO: Adjust padding */
+  padding: 2rem;
   cursor: default;
   overflow-y: auto;
   align-items: flex-start;
   justify-content: flex-start;
   scroll-behavior: smooth;
   scrollbar-width: thin;
-  scrollbar-color: rgba(255, 255, 255, 0.2) transparent; /* TODO: Scrollbar colors */
+  scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
 }
 
 
@@ -28,7 +28,7 @@
   position: fixed;
   left: 0;
   width: inherit;
-  height: 60px; /* TODO: Gradient fade height */
+  height: 60px;
   pointer-events: none;
   z-index: 10;
 }
@@ -44,33 +44,33 @@
 }
 
 .main-panel-content {
-  max-width: 800px; /* TODO: Content max width */
+  max-width: 800px;
   margin: 0 auto;
   width: 100%;
-  padding-top: 4rem; /* TODO: Top padding */
-  padding-bottom: 4rem; /* TODO: Bottom padding */
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 /* Newspaper grid layout for main panel */
 .main-panel-newspaper-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem; /* TODO: Grid gap */
+  gap: 2rem;
 }
 
 .main-panel-title {
   color: var(--color-text-primary);
-  font-size: 48px; /* TODO: Title font size */
+  font-size: 48px;
   font-weight: 700;
-  margin-bottom: 1rem; /* TODO: Title bottom margin */
-  letter-spacing: -0.02em; /* TODO: Title letter spacing */
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
 }
 
 .main-panel-subtitle {
   color: var(--color-text-secondary);
-  font-size: 20px; /* TODO: Subtitle font size */
-  line-height: 1.6; /* TODO: Subtitle line height */
-  margin-bottom: 2rem; /* TODO: Subtitle bottom margin */
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
 }
 
 .main-panel-description {

@@ -10,7 +10,7 @@
   line-height: var(--line-tight);
   color: var(--color-text-primary);
   text-transform: uppercase;
-  letter-spacing: 0.01em; /* TODO: Headline letter spacing */
+  letter-spacing: 0.01em;
 }
 
 .article-section-dateline {
@@ -18,7 +18,7 @@
   font-size: var(--text-byline);
   color: var(--color-text-primary);
   margin-bottom: 4px;
-  opacity: 0.8; /* TODO: Byline opacity */
+  opacity: 0.8;
 }
 
 .article-section-body {
@@ -26,13 +26,13 @@
   font-size: var(--text-body);
   line-height: var(--line-relaxed);
   color: var(--color-text-primary);
-  margin: 1.5rem 0; /* TODO: Body vertical margin */
+  margin: 1.5rem 0;
 }
 
 .article-section-body p {
   text-align: justify;
   hyphens: auto;
-  word-spacing: 0.05em; /* TODO: Word spacing */
+  word-spacing: 0.05em;
 }
 
 .article-section-body p:last-child {
@@ -76,10 +76,10 @@
 .article-section-horizontal {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem; /* TODO: Horizontal layout gap */
+  gap: 1.5rem;
 }
 
-@media (max-width: 768px) { /* TODO: Mobile breakpoint */
+@media (max-width: 768px) {
   .article-section-body p {
     text-align: left;
   }

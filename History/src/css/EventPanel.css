@@ -1,7 +1,7 @@
 .event-panel {
   height: 100vh;
   background: var(--color-bg-rail);
-  border-left: 1px solid rgba(255, 255, 255, 0.1); /* TODO: Border style */
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
@@ -12,18 +12,18 @@
 
 .event-panel--expanded {
   position: relative;
-  padding: 2rem; /* TODO: Expanded padding */
+  padding: 2rem;
   cursor: default;
   overflow-y: auto;
   align-items: stretch;
   justify-content: flex-start;
   scroll-behavior: smooth;
   scrollbar-width: thin;
-  scrollbar-color: rgba(255, 255, 255, 0.2) transparent; /* TODO: Scrollbar colors */
+  scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
 }
 
 .event-panel--expanded::-webkit-scrollbar {
-  width: 6px; /* TODO: Scrollbar width */
+  width: 6px;
 }
 
 .event-panel--expanded::-webkit-scrollbar-track {
@@ -31,12 +31,12 @@
 }
 
 .event-panel--expanded::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.2); /* TODO: Scrollbar thumb color */
-  border-radius: 3px; /* TODO: Scrollbar thumb radius */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
 }
 
 .event-panel--expanded::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.3); /* TODO: Scrollbar thumb hover color */
+  background: rgba(255, 255, 255, 0.3);
 }
 
 /* Gradient fade at top and bottom for smooth text continuation */
@@ -46,7 +46,7 @@
   position: absolute;
   left: 0;
   width: 100%;
-  height: 60px; /* TODO: Gradient fade height */
+  height: 60px;
   pointer-events: none;
   z-index: 10;
 }
@@ -63,31 +63,31 @@
 
 .event-panel-title {
   color: var(--color-text-primary);
-  font-size: 28px; /* TODO: Title font size */
+  font-size: 28px;
   font-weight: 700;
-  margin-bottom: 0.75rem; /* TODO: Title bottom margin */
+  margin-bottom: 0.75rem;
 }
 
 .event-panel-description {
   color: var(--color-text-secondary);
-  font-size: 16px; /* TODO: Description font size */
-  line-height: 1.6; /* TODO: Description line height */
-  margin-bottom: 2rem; /* TODO: Description bottom margin */
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
 }
 
 /* Newspaper grid layout for event panel */
 .event-panel-newspaper-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2rem; /* TODO: Grid gap */
-  max-width: 1200px; /* TODO: Grid max width */
+  gap: 2rem;
+  max-width: 1200px;
 }
 
 .event-panel-newspaper-grid-single-column {
   grid-template-columns: 1fr;
 }
 
-@media (max-width: 768px) { /* TODO: Mobile breakpoint */
+@media (max-width: 768px) {
   .event-panel-newspaper-grid {
     grid-template-columns: 1fr;
   }

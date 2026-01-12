@@ -1,8 +1,8 @@
 .pull-quote {
-  padding: 2rem 0; /* TODO: Pull quote vertical padding */
-  margin: 2rem 0; /* TODO: Pull quote vertical margin */
-  border-left: 3px solid var(--color-accent); /* TODO: Left border style */
-  padding-left: 2rem; /* TODO: Left padding */
+  padding: 2rem 0;
+  margin: 2rem 0;
+  border-left: 3px solid var(--color-accent);
+  padding-left: 2rem;
 }
 
 .pull-quote-center {
@@ -28,7 +28,7 @@
   font-family: var(--font-body);
   font-size: var(--text-byline);
   font-style: normal;
-  margin-top: 1rem; /* TODO: Attribution top margin */
+  margin-top: 1rem;
   color: var(--color-text-primary);
-  opacity: 0.8; /* TODO: Attribution opacity */
+  opacity: 0.8;
 }

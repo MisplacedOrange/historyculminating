@@ -44,17 +44,17 @@ export default function CanadianTheatre() {
         <ArticleSection
           headline="The Great Depression in Canada"
           dateline="October 29, 1929"
-          body="The Great Depression was a worldwide economic crisis during the 1930s that had devastating effects on Canada. Millions of Canadians experienced unemployment, hunger, homelessness, and extreme poverty. The decade became known as the Dirty Thirties due to widespread drought, dust storms, and economic collapse, particularly in the Prairie provinces." /* TODO: Article 2 body text */
+          body="The Great Depression was a worldwide economic crisis during the 1930s that had devastating effects on Canada. Millions of Canadians experienced unemployment, hunger, homelessness, and extreme poverty. The decade became known as the Dirty Thirties due to widespread drought, dust storms, and economic collapse, particularly in the Prairie provinces."
           image={{
             caption: "Figure 3: People Lining up for food during the Dirty 30s. Sourced from https://www.newmarkettoday.ca/remember-this/history-reminds-us-and-gives-us-hope-newmarket-we-will-get-through-this-2225047",
             src: image3 
           }}
-          body2="Canada’s economy suffered heavily because it relied on exports for one-third of its national income. Between 1929 and 1933, Canada’s Gross National Expenditure dropped by 42%, and unemployment reached 30%, leaving one in five Canadians dependent on government relief. Saskatchewan’s income fell by 90% in just two years, and more than 66% of its population relied on relief. Immigration collapsed, birthrates declined, and relief camps paid workers only 20 cents per day, leading to protests such as the On-to-Ottawa Trek and the Regina Riot." /* TODO: Article 2 body2 text */
+          body2="Canada's economy suffered heavily because it relied on exports for one-third of its national income. Between 1929 and 1933, Canada's Gross National Expenditure dropped by 42%, and unemployment reached 30%, leaving one in five Canadians dependent on government relief. Saskatchewan's income fell by 90% in just two years, and more than 66% of its population relied on relief. Immigration collapsed, birthrates declined, and relief camps paid workers only 20 cents per day, leading to protests such as the On-to-Ottawa Trek and the Regina Riot."
           image2={{
             caption: "Figure 4: Man standing over his field during the Dust Bowl. Sourced from https://www.canadashistory.ca/education/lesson-plans/dust-and-depression", 
             src: image4 
           }}
-          body3="Historically, the Great Depression reshaped Canada’s political, social, and economic systems. It led to the rise of national welfare programs, new political movements such as the CCF and Social Credit, and the creation of the Canadian Wheat Board in 1935. The crisis exposed weaknesses in Canada’s economy and directly influenced long-term government responsibility for economic stability and social welfare." /* TODO: Article 2 body3 text */
+          body3="Historically, the Great Depression reshaped Canada's political, social, and economic systems. It led to the rise of national welfare programs, new political movements such as the CCF and Social Credit, and the creation of the Canadian Wheat Board in 1935. The crisis exposed weaknesses in Canada's economy and directly influenced long-term government responsibility for economic stability and social welfare."
         />
       </div>
     </>

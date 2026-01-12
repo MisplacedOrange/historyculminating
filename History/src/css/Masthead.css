@@ -1,9 +1,9 @@
 .masthead {
   width: 100%;
   text-align: center;
-  padding: 2rem 0; /* TODO: Masthead padding */
-  border-bottom: 2px solid var(--color-border); /* TODO: Masthead border */
-  margin-bottom: 2rem; /* TODO: Masthead bottom margin */
+  padding: 2rem 0;
+  border-bottom: 2px solid var(--color-border);
+  margin-bottom: 2rem;
 }
 
 .masthead-meta {
@@ -13,8 +13,8 @@
   font-family: var(--font-mono);
   font-size: var(--text-meta);
   text-transform: uppercase;
-  letter-spacing: 0.1em; /* TODO: Meta letter spacing */
-  margin-bottom: 1rem; /* TODO: Meta bottom margin */
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
   color: var(--color-text-primary);
 }
 
@@ -28,15 +28,15 @@
   font-size: var(--text-display);
   font-weight: 700;
   line-height: var(--line-tight);
-  margin: 1rem 0; /* TODO: Title vertical margin */
+  margin: 1rem 0;
   color: var(--color-text-primary);
   text-transform: uppercase;
-  letter-spacing: 0.02em; /* TODO: Title letter spacing */
+  letter-spacing: 0.02em;
 }
 
 .masthead-date {
   font-family: var(--font-mono);
   font-size: var(--text-caption);
   color: var(--color-text-primary);
-  margin-top: 0.5rem; /* TODO: Date top margin */
+  margin-top: 0.5rem;
 }

@@ -30,7 +30,7 @@ export default function PacificTheatre() {
           dateline="December 7, 1941"
           body="Pearl Harbour was a U.S. naval base near Honolulu, Hawaii, attacked by Japan on December 7, 1941. The surprise attack began at 8:00 a.m. and involved hundreds of Japanese aircraft targeting American naval and air forces."
           image={{
-            caption: "Bird's eye view of Pearl Harbor a few months before the Japanese Attack on December 7, 1941. Sourced from https://www.history.navy.mil/content/history/museums/nmusn/explore/photography/wwii/wwii-pacific/us-entry-into-wwii-japanese-offensive/1941-december-7-japanese-attack-on-pearl-harbor/before-the-attack.html", /* TODO: Image 1 caption */
+            caption: "Bird's eye view of Pearl Harbor a few months before the Japanese Attack on December 7, 1941. Sourced from https://www.history.navy.mil/content/history/museums/nmusn/explore/photography/wwii/wwii-pacific/us-entry-into-wwii-japanese-offensive/1941-december-7-japanese-attack-on-pearl-harbor/before-the-attack.html",
             src: image5 
           }}
           body2="The attack destroyed or damaged eight battleships, over 300 aircraft, and killed approximately 2,400 American soldiers. The USS Arizona was struck by a 1,800-pound bomb, killing over 1,000 men, while the USS Oklahoma sank, trapping hundreds of sailors. Japan failed to destroy key infrastructure such as oil depots and shipyards, allowing the U.S. Navy to recover."

@@ -1,6 +1,6 @@
 .collapsed-panel {
   display: flex;
-  padding: 1rem; /* TODO: Collapsed padding */
+  padding: 1rem; 
   cursor: pointer;
   overflow-y: hidden;
   align-items: center;
@@ -18,9 +18,9 @@
 
 .rotated-text-label {
   color: var(--color-text-primary);
-  font-size: 16px; /* TODO: Rotated text font size */
+  font-size: 18px; 
   font-weight: 600;
-  letter-spacing: 0.05em; /* TODO: Rotated text letter spacing */
+  letter-spacing: 0.05em; 
 }
 
 * {

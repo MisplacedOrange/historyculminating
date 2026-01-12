@@ -18,42 +18,39 @@
 }
 
 :root {
-  /* Typography Scale - TODO: Customize these values for your content */
-  --text-meta: 11px;     /* TODO: Smallest text size */
-  --text-caption: 13px;  /* TODO: Caption text size */
-  --text-byline: 14px;   /* TODO: Byline text size */
-  --text-body: 16px;     /* TODO: Body text size */
-  --text-subhead: 20px;  /* TODO: Subheading size */
-  --text-headline: 28px; /* TODO: Headline size */
-  --text-display: 48px;  /* TODO: Display heading size */
-  --text-hero: 64px;     /* TODO: Hero heading size */
+  --text-meta: 11px;
+  --text-caption: 13px;
+  --text-byline: 14px;
+  --text-body: 16px;
+  --text-subhead: 20px;
+  --text-headline: 28px;
+  --text-display: 48px;
+  --text-hero: 64px;
   
-  /* Line Heights - TODO: Adjust for your typography */
-  --line-tight: 1.1;     /* TODO: Tight line height */
-  --line-normal: 1.4;    /* TODO: Normal line height */
-  --line-relaxed: 1.6;   /* TODO: Relaxed line height */
-  --line-loose: 1.8;     /* TODO: Loose line height */
+  --line-tight: 1.1;
+  --line-normal: 1.4;
+  --line-relaxed: 1.6;
+  --line-loose: 1.8;
   
-  --font-display: 'Playfair Display', Georgia, 'Times New Roman', serif;           /* TODO: Display font stack */
-  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; /* TODO: Body font stack */
-  --font-mono: 'IBM Plex Mono', 'Courier New', monospace;                          /* TODO: Monospace font stack */
+  --font-display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
   
-  --spacing-xs: 4px;   /* TODO: Extra small spacing */
-  --spacing-s: 8px;    /* TODO: Small spacing */
-  --spacing-m: 16px;   /* TODO: Medium spacing */
-  --spacing-l: 24px;   /* TODO: Large spacing */
-  --spacing-xl: 32px;  /* TODO: Extra large spacing */
-  --spacing-2xl: 48px; /* TODO: 2x large spacing */
+  --spacing-xs: 4px;
+  --spacing-s: 8px;
+  --spacing-m: 16px;
+  --spacing-l: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
   
-  --color-bg-main: #acacac;             /* TODO: Main background color */
-  --color-bg-rail: #acacac;             /* TODO: Rail background color */
-  --color-bg-panel: #acacac;            /* TODO: Panel background color */
-  --color-text-primary: #111318;        /* TODO: Primary text color */
-  --color-border: rgba(0, 0, 0, 0.1);   /* TODO: Border color */
+  --color-bg-main: #acacac;
+  --color-bg-rail: #acacac;
+  --color-bg-panel: #acacac;
+  --color-text-primary: #111318;
+  --color-border: rgba(0, 0, 0, 0.1);
   
-  /* Layout - TODO: Adjust layout constraints */
-  --container-max-width: 1280px; /* TODO: Maximum container width */
-  --border-radius-s: 4px;        /* TODO: Small border radius */
-  --border-radius-m: 8px;        /* TODO: Medium border radius */
-  --border-radius-l: 12px;       /* TODO: Large border radius */
+  --container-max-width: 1280px;
+  --border-radius-s: 4px;
+  --border-radius-m: 8px;
+  --border-radius-l: 12px;
 }
