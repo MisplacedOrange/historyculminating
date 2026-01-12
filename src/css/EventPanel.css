@@ -1,0 +1,94 @@
+.event-panel {
+  height: 100vh;
+  background: var(--color-bg-rail);
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.event-panel--expanded {
+  position: relative;
+  padding: 2rem;
+  cursor: default;
+  overflow-y: auto;
+  align-items: stretch;
+  justify-content: flex-start;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
+
+.event-panel--expanded::-webkit-scrollbar {
+  width: 6px;
+}
+
+.event-panel--expanded::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.event-panel--expanded::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+.event-panel--expanded::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Gradient fade at top and bottom for smooth text continuation */
+.event-panel--expanded::before,
+.event-panel--expanded::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.event-panel--expanded::before {
+  top: 0;
+  background: linear-gradient(to bottom, var(--panel-gradient-color, var(--color-bg-rail)) 0%, transparent 100%);
+}
+
+.event-panel--expanded::after {
+  bottom: 0;
+  background: linear-gradient(to top, var(--panel-gradient-color, var(--color-bg-rail)) 0%, transparent 100%);
+}
+
+.event-panel-title {
+  color: var(--color-text-primary);
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.event-panel-description {
+  color: var(--color-text-secondary);
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/* Newspaper grid layout for event panel */
+.event-panel-newspaper-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+}
+
+.event-panel-newspaper-grid-single-column {
+  grid-template-columns: 1fr;
+}
+
+@media (max-width: 768px) {
+  .event-panel-newspaper-grid {
+    grid-template-columns: 1fr;
+  }
+}

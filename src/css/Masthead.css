@@ -1,0 +1,42 @@
+.masthead {
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+  border-bottom: 2px solid var(--color-border);
+  margin-bottom: 2rem;
+}
+
+.masthead-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: var(--text-meta);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+  color: var(--color-text-primary);
+}
+
+.masthead-issue,
+.masthead-category {
+  font-weight: 600;
+}
+
+.masthead-title {
+  font-family: var(--font-display);
+  font-size: var(--text-display);
+  font-weight: 700;
+  line-height: var(--line-tight);
+  margin: 1rem 0;
+  color: var(--color-text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.masthead-date {
+  font-family: var(--font-mono);
+  font-size: var(--text-caption);
+  color: var(--color-text-primary);
+  margin-top: 0.5rem;
+}

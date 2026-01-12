@@ -1,0 +1,29 @@
+.collapsed-panel {
+  display: flex;
+  padding: 1rem; 
+  cursor: pointer;
+  overflow-y: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.rotated-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  white-space: nowrap;
+}
+
+.rotated-text-label {
+  color: var(--color-text-primary);
+  font-size: 18px; 
+  font-weight: 600;
+  letter-spacing: 0.05em; 
+}
+
+* {
+    overflow-x: hidden;
+    scrollbar-width: none;
+}

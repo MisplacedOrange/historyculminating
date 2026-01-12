@@ -1,0 +1,88 @@
+.main-panel {
+  height: 100vh;
+  background: var(--color-bg-panel);
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-panel--expanded {
+  position: relative;
+  padding: 2rem;
+  cursor: default;
+  overflow-y: auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
+
+
+/* Gradient fade at top and bottom for smooth text continuation */
+.main-panel--expanded::before,
+.main-panel--expanded::after {
+  content: '';
+  position: fixed;
+  left: 0;
+  width: inherit;
+  height: 60px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.main-panel--expanded::before {
+  top: 0;
+  background: linear-gradient(to bottom, var(--color-bg-panel) 0%, transparent 100%);
+}
+
+.main-panel--expanded::after {
+  bottom: 0;
+  background: linear-gradient(to top, var(--color-bg-panel) 0%, transparent 100%);
+}
+
+.main-panel-content {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Newspaper grid layout for main panel */
+.main-panel-newspaper-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.main-panel-title {
+  color: var(--color-text-primary);
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+
+.main-panel-subtitle {
+  color: var(--color-text-secondary);
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.main-panel-description {
+  color: var(--color-text-primary);
+  font-size: 16px;
+  line-height: 1.8;
+  border-left: 3px solid var(--color-accent);
+  padding-left: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.main-panel-description-text {
+  margin-bottom: 1rem;
+  color: var(--color-text-primary);
+}

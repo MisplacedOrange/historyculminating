@@ -1,0 +1,29 @@
+.section-divider {
+  border: 16px;
+  margin: 8px
+}
+
+.section-divider--line {
+  border-top: 4px solid var(--color-border); 
+}
+
+.section-divider--double {
+  border-top: 8px double var(--color-border); 
+}
+
+.section-divider--ornament {
+  text-align: center;
+  position: relative;
+  height: 100px; 
+  background: var(--color-border);
+}
+
+.section-divider--ornament::after {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--color-bg-panel);
+  padding: 0 1rem;
+  color: var(--color-text-primary);
+}
