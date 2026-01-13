@@ -38,23 +38,28 @@ export default function PostWarTheatre() {
             caption: "Korean soldiers walking on the 38th parallel. Sourced from https://www.history.com/articles/korean-war", 
             src: image18
           }}
-          body3="Historically, the Cold War shaped international relations for decades, influenced military alliances, and defined global power structures. The constant threat of nuclear war affected diplomacy, economics, and daily life worldwide."
+          body3="The Cold War was historically significant because it shaped international relations for decades and influenced military alliances. Without the Cold War, the global powers today wouldn’t be as defined and structured. Furthermore, the constant threat of nuclear war negatively affected diplomacy, economics, and daily life worldwide as it constantly created an atmosphere of fear and violence.
+
+"
         />
 
         <ArticleSection
           headline="Space Race"
           dateline="October 4, 1957 -  July 17, 1975" 
-          body="The Space Race was a technological competition between the United States and the Soviet Union during the Cold War. It began in 1957 with the launch of Sputnik 1 and continued through major milestones in space exploration."
+          body="The Space Race was a technological competition between the United States and the Soviet Union during the Cold War. It began in 1957 with the launch of Sputnik 1 and continued as major breakthroughs began to develop in space exploration.
+"
           image={{
             caption: "First man-made space satellite, Sputnik 1. Sourced from https://www.upi.com/Top_News/2017/10/04/On-This-Day-Soviet-Union-launches-Sputnik-1/4021507091970/",
             src: image19
           }}
-          body2="Key achievements included the first human in space, the first spacewalk, lunar orbit missions, and the Apollo 11 Moon landing in 1969. Both nations invested heavily in science, engineering, and astronaut programs to demonstrate technological superiority."
+          body2="Key achievements included the first human in space, the first spacewalk, lunar orbit missions, and the Apollo 11 Moon landing in 1969. Due to this competition, both nations invested heavily in science, engineering, and astronaut programs to demonstrate their technological superiority to another.
+
+"
           image2={{
             caption: "Edwin Buzz Aldrin looking at the American flag as he becomes the first man to walk on the moon. Sourced from https://www.adirondackdailyenterprise.com/news/local-news/2019/07/how-the-moon-landed-on-page-1/",
             src: image20
           }}
-          body3="Historically, the Space Race symbolized Cold War competition and innovation. The U.S. Moon landing marked technological dominance and inspired advances in science, communication, and global cooperation." 
+          body3="The Space Race symbolized the technological competition and innovation between powers and signified that competition is essential for scientific discoveries and innovations. The U.S. Moon landing marked the technological dominance and inspired advances in science, communication, and global cooperation." 
         />
       </div>
     </>
