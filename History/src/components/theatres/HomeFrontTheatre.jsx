@@ -29,7 +29,7 @@ export default function HomeFrontTheatre() {
         <ArticleSection
           headline="Battle of Vimy Ridge"
           dateline="April 9, 1917 - April 12, 1917"
-          body="The Battle of Vimy Ridge was fought during the First World War from April 9 to April 12, 1917, on the Western Front in northern France. It marked the first time all four Canadian Corps fought together in a single coordinated assault. The battle took place near Vimy, Pas-de-Calais, and targeted a heavily fortified German defensive position."
+          body="The Battle of Vimy Ridge was fought during the First World War from April 9 to April 12, 1917. This battle took place on the Western Front in northern France and marked the first time all four Canadian Corps fought together in a single coordinated assault. The battle took place near Vimy, Pas-de-Calais, and targeted a heavily fortified German defensive position."
           image={{
             caption: "Canadian soldiers carrying wounded soldier on a stretcher. Sourced from https://www.veterans.gc.ca/en/remembrance/military-history/first-world-war/battle-vimy-ridge",
             src: image13
@@ -39,7 +39,8 @@ export default function HomeFrontTheatre() {
             caption: "Canadian soldiers celebrating after successfully capturing Vimy Ridge. Sourced from https://www.bbc.com/news/uk-39541940", 
             src: image14 
           }}
-          body3="The capture of Vimy Ridge was historically significant because it provided a crucial geographic vantage point, allowing visibility over much of the surrounding battlefield. The victory demonstrated Canada’s growing military effectiveness and independence and has often been described as the “birth of a nation.” Today, the Canadian National Vimy Memorial stands on Hill 145, commemorating the 11,285 Canadians killed in France who have no known grave." 
+          body3="The capture of Vimy Ridge was historically significant because it provided a key geographic advantage point which allowed enhanced visibility over the surrounding battlefield. The victory demonstrated Canada’s military effectiveness, independence and has often been described as the “birth of a nation.” Today, the Canadian National Vimy Memorial stands on Hill 145, commemorating the 11,285 Canadians killed in France who have no known grave.
+" 
         />
 
         <ArticleSection
@@ -50,12 +51,15 @@ export default function HomeFrontTheatre() {
             caption: "Hermann Göring at the Nuremberg trials. Sourced from https://www.britannica.com/event/Nurnberg-trials", 
             src: image15
           }}
-          body2="A total of 199 defendants were tried, with 161 convicted and 37 sentenced to death. The tribunal presented extensive evidence, including footage of concentration camp liberations, exposing crimes such as the Final Solution and POW murders. Additional trials continued until 1949, targeting physicians, judges, SS officers, and industrialists."
+          body2="A total of 199 defendants were tried, with 161 convicted and 37 sentenced to death. The tribunal presented irrefutable evidence, including footage of concentration camp liberations, exposing war-crimes such as the Final Solution and POW murders. Additional trials continued until 1949, targeting physicians, judges, SS officers, and industrialists.
+
+"
           image2={{
             caption: "Wilhelm List at the Nuremberg trials. Sourced from https://www.britannica.com/event/Nurnberg-trials",
             src: image16
           }}
-          body3="Historically, the Nuremberg Trials were significant because they established the principle that individuals, including government leaders, could be held accountable under international law. They set legal precedents for war crimes, crimes against humanity, and genocide, shaping future international justice systems."
+          body3="The Nuremberg Trials were significant because they established the principle that all individuals will be accountable under international law. This tribunal set legal precedents for war crimes, crimes against humanity, and genocide, shaping future international justice systems.
+"
         />
       </div>
     </>
