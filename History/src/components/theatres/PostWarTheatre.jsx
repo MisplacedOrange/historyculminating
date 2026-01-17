@@ -14,7 +14,7 @@ export default function PostWarTheatre() {
         issue="JANUARY"
         title="POST-WAR THEATRE"
         date="January 11th, 2026"
-        category="HISTORY CULMINATING"
+        category="HISTORY"
       />
 
       <PullQuote 

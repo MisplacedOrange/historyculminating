@@ -15,7 +15,7 @@ function LoadingScreen() {
         initial={{ opacity: 1, y: 0 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <h1 className="loading-title">HISTORY CULMINATING</h1>
+        <h1 className="loading-title">HISTORY</h1>
         <div className="loading-subtitle">Loading historical archives...</div>
       </motion.div>
     </motion.div>

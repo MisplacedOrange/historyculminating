@@ -28,7 +28,7 @@ export default function MainPanel({ isExpanded, onClick }) {
           >
             <div className="main-panel-newspaper-grid">
               <Masthead
-                issue="HISTORY CULMINATING"
+                issue="HISTORY"
                 title="HISTORY TOP TEN"
                 date="Culminating Delivery Task"
                 category="January, 2026"
@@ -43,7 +43,7 @@ export default function MainPanel({ isExpanded, onClick }) {
 
               <ArticleSection
                 headline="Purpose of this Website"
-                body="This website was created for part my History Culminating. Its purpose is to present a carefully selected Top Ten list of the most important events that have shaped human history. These selections highlight events that caused long-term political, social, economic, and cultural change." 
+                body="This website was created for History. Its purpose is to present a carefully selected Top Ten list of the most important events that have shaped human history. These selections highlight events that caused long-term political, social, economic, and cultural change." 
               />
 
               <SectionDivider variant="line" />
