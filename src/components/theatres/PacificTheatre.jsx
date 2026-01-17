@@ -14,7 +14,7 @@ export default function PacificTheatre() {
         issue="JANUARY"
         title="PACIFIC THEATRE"
         date="January 11th, 2026"
-        category="HISTORY CULMINATING"
+        category="HISTORY"
       />
 
       <PullQuote 

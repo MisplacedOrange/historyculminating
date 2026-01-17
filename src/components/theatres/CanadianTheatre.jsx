@@ -14,7 +14,7 @@ export default function CanadianTheatre() {
         issue="JANUARY"
         title="CANADIAN THEATRE"
         date="January 11th, 2026"
-        category="HISTORY CULMINATING"
+        category="HISTORY"
       />
 
       <PullQuote 
